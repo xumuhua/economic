@@ -1,11 +1,17 @@
 #pragma once
 #include "market.h"
+#include <vector>
+#include "corporation.h"
+#include <stdio.h>
+#include "parameter.h"
 
-class enviroment
+using namespace std;
+
+class environment
 {
 public:
-	enviroment(void);
-	~enviroment(void);
+	environment(void);
+	~environment(void);
 	double total_value;
 	double base_value;
 	double market_size;
@@ -19,7 +25,17 @@ public:
 	double market_size_A_B;
 	double market_size_B_C;
 	double inflation;
+	double people;
+	vector<corporation*> corporations_A;
+	vector<corporation*> corporations_B;
+	vector<corporation*> corporations_C;
 	void initial();
-	void get_market_size();
+	void getMarketSize();
+	void getMarketValue();
+	void getCorporationShare();
+	void getCorporationProfit();
+	void addNewCorporation(int i);
+
+	void forwardAStep();
 };
 

@@ -21,5 +21,6 @@ double market::get_new_value() {
 	target_value = target_value*this->base_value*this->inflation;
 	double diff_value = target_value - this->value;
 	this->value = this->value+diff_value*0.2;
+	cout << value << endl;
 	return this->value;
 }

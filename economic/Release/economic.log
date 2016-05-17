@@ -1,0 +1,42 @@
+﻿生成启动时间为 2016/5/14 14:59:04。
+     1>项目“C:\Users\Administrator\documents\visual studio 2010\Projects\economic\economic\economic.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“C:\Users\Administrator\documents\visual studio 2010\Projects\economic\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\economic.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\economic.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\economic.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt corporation.cpp economic.cpp enviroment.cpp market.cpp
+         corporation.cpp
+         economic.cpp
+         enviroment.cpp
+     1>enviroment.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>enviroment.cpp(78): warning C4018: “<”: 有符号/无符号不匹配
+     1>enviroment.cpp(84): warning C4018: “<”: 有符号/无符号不匹配
+     1>enviroment.cpp(108): warning C4018: “<”: 有符号/无符号不匹配
+     1>enviroment.cpp(111): warning C4018: “<”: 有符号/无符号不匹配
+     1>enviroment.cpp(114): warning C4018: “<”: 有符号/无符号不匹配
+     1>enviroment.cpp(120): warning C4018: “<”: 有符号/无符号不匹配
+     1>enviroment.cpp(125): warning C4018: “<”: 有符号/无符号不匹配
+     1>enviroment.cpp(130): warning C4018: “<”: 有符号/无符号不匹配
+         market.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2010\Projects\economic\Release\economic.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\economic.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\documents\visual studio 2010\Projects\economic\Release\economic.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2010\Projects\economic\Release\economic.lib" /MACHINE:X86 Release\corporation.obj
+         Release\economic.obj
+         Release\enviroment.obj
+         Release\market.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         economic.vcxproj -> C:\Users\Administrator\documents\visual studio 2010\Projects\economic\Release\economic.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\documents\visual studio 2010\Projects\economic\Release\economic.exe;#1" /manifest Release\economic.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\economic.unsuccessfulbuild”。
+         正在对“Release\economic.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2010\Projects\economic\economic\economic.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.61
